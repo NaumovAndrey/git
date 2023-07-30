@@ -1,0 +1,47 @@
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ git init  
+Инициализирован пустой репозиторий Git в /home/naumov/Документы/GB/Git/seminars/1/.git/
+
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ la -al
+итого 12
+drwxr-xr-x 3 naumov naumov 4096 июл 30 19:43 .
+drwxr-xr-x 3 naumov naumov 4096 июл 30 18:42 ..
+drwxr-xr-x 7 naumov naumov 4096 июл 30 19:43 .git
+
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ vim ./project 
+                                                                                                                                                   
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ cat project           
+какой-то проект
+
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ git status
+Текущая ветка: naumov
+
+Еще нет коммитов
+
+Неотслеживаемые файлы:
+  (используйте «git add <файл>...», чтобы добавить в то, что будет включено в коммит)
+	project
+
+индекс пуст, но есть неотслеживаемые файлы
+(используйте «git add», чтобы проиндексировать их)
+
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ git commit -m 'init'                  
+[naumov (корневой коммит) 4c96870] init
+ 1 file changed, 1 insertion(+)
+ create mode 100644 project
+
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ git remote add origin https://github.com/NaumovAndrey/git.git
+                                                                                                                                                        
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ git branch -M master
+                                                                                                                                                  
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ git push -u origin master
+
+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
