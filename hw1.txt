@@ -44,4 +44,31 @@ drwxr-xr-x 7 naumov naumov 4096 июл 30 19:43 .git
 ┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
 └─$ git push -u origin master
 
-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
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ git push --set-upstream origin master
+Username for 'https://github.com': NaumovAndrey
+Password for 'https://NaumovAndrey@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/NaumovAndrey/git.git/'
+                                                                                                                                                                                                                                                                                                                              
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ git push --set-upstream origin master
+Username for 'https://github.com': NaumovAndrey
+Password for 'https://NaumovAndrey@github.com': 
+Перечисление объектов: 6, готово.
+Подсчет объектов: 100% (6/6), готово.
+При сжатии изменений используется до 4 потоков
+Сжатие объектов: 100% (4/4), готово.
+Запись объектов: 100% (6/6), 1.16 КиБ | 1.16 МиБ/с, готово.
+Всего 6 (изменений 0), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
+To https://github.com/NaumovAndrey/git.git
+ * [new branch]      master -> master
+
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ git remote -v                                                                                       
+origin	https://github.com/NaumovAndrey/git.git (fetch)
+origin	https://github.com/NaumovAndrey/git.git (push)
+
+
+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
