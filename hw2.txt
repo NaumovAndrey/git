@@ -1,0 +1,72 @@
+<<<<<<< HEAD
+=======
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ git reflog   
+f092bb2 (HEAD -> master) HEAD@{0}: commit: edits in the project
+2aec708 HEAD@{1}: commit: addition to the project
+ce2c576 HEAD@{2}: commit: changes in the project
+1f085ca (origin/master) HEAD@{3}: commit: additions homework1
+0e91a84 HEAD@{4}: commit: create homework1
+4c96870 HEAD@{5}: Branch: renamed refs/heads/naumov to refs/heads/master
+4c96870 HEAD@{7}: commit (initial): init
+
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ git show  
+commit f092bb23e14f36467c2b6b755074c33e6cd4d969 (HEAD -> master, tag: 1)
+Author: Naumov <naumov.a.n@icloud.com>
+Date:   Mon Aug 7 21:21:05 2023 +0700
+
+    edits in the project
+
+diff --git a/project b/project
+index 2fb5f29..96fd21f 100644
+--- a/project
++++ b/project
+@@ -2,3 +2,4 @@
+ 
+ этот како-то проект обнавлён или исправлен
+ ещё одно исправление ко второму дз
++какие-то правки в проекте
+
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ git show 2aec708
+commit 2aec708acb0f5930bb3c8897be3cda12ceb1e245
+Author: Naumov <naumov.a.n@icloud.com>
+Date:   Mon Aug 7 21:18:45 2023 +0700
+
+    addition to the project
+
+diff --git a/project b/project
+index f31e8f1..2fb5f29 100644
+--- a/project
++++ b/project
+@@ -1,3 +1,4 @@
+ какой-то проект
+ 
+ этот како-то проект обнавлён или исправлен
++ещё одно исправление ко второму дз
+                                                                                                                                                                    
+┌──(naumov㉿pchome)-[~/…/GB/Git/seminars/1]
+└─$ git show ce2c576
+commit ce2c576667f02da2627b653ae4564bdd2d261cc9
+Author: Naumov <naumov.a.n@icloud.com>
+Date:   Mon Aug 7 21:09:09 2023 +0700
+
+    changes in the project
+
+diff --git a/hw2.txt b/hw2.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/project b/project
+index fad5509..f31e8f1 100644
+--- a/project
++++ b/project
+@@ -1 +1,3 @@
+ какой-то проект
++
++этот како-то проект обнавлён или исправлен
+
+
+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
+
+>>>>>>> parent of 5fe3a83 (1)
